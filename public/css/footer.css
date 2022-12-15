@@ -1,0 +1,57 @@
+/*Footer */
+
+/*Mobile */
+
+footer{
+    background-color: rgb(255, 255, 255);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section{
+    padding: 2rem 3rem;
+    text-align: center;
+    max-width: 30rem;
+    
+}
+
+.footer-section .fas{
+    font-size: 2rem;
+    color: #03264C;
+    padding-bottom: 0.625rem;
+}
+
+.footer-section .fas:hover{
+    color: #002daa;
+}
+
+.footer-section h2{
+    font-size: 16px
+}
+
+#copyright{
+    font-size: 12px;
+    text-decoration: none;
+    padding: 1rem 1rem;
+}
+
+/*Tablet */
+
+@media (min-width: 361px){
+    
+}
+
+/*pc escritorio*/
+
+@media (min-width: 769px){
+    
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}

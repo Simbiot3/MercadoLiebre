@@ -1,0 +1,48 @@
+main {
+    width: 100vw;
+    background-color: #ebebeb;
+}
+
+.login-titulo {
+    font-size: 2em;
+    text-align: center;
+}
+
+input {
+    background-color: #fff;
+}
+
+button {
+    background-color: #fff;
+    
+}
+
+.correo-login {
+    width: 70%;
+    margin-left: 15%;
+    height: 40px;
+    margin-top: 1%;
+    border-radius: 4px;
+}
+
+.contra-login {
+    width: 70%;
+    margin-left: 15%;
+    height: 40px;
+    margin-top: 2%;
+    border-radius: 4px;
+}
+
+.logeo {
+    width: 70%;
+    margin-left: 15%;
+    height: 40px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    transition: 0.2s;
+    border-radius: 4px;
+}
+
+.logeo:hover {
+    background-color:#EAC926;
+}

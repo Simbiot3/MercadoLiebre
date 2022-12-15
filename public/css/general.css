@@ -1,0 +1,11 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p, li{
+    font-size: 12px;
+}
+
+li{
+    list-style: none;
+}
